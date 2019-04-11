@@ -1,0 +1,72 @@
+body {
+    padding-top: 60px;
+    font-family: 'Playfair Display', serif;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+p {
+    margin-bottom: 0.5rem;
+}
+b{
+    color: #000;
+}
+img.display{
+    height: 160px;
+    width: 160px;
+    filter: grayscale(100%);
+    border-radius: 50%;
+}
+.section{
+    min-height: 100vh;
+    margin-top: 1em;
+}
+.section .section-heading h2{
+}
+#name{
+    text-align: center;
+    text-transform: uppercase;
+}
+#summary{
+    font-style: italic;
+    color: gray;
+    font-size: 1rem;
+}
+.img-icon{
+    height: 100px;
+    width: 100px;
+}
+.navbar{
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link.btn-download{
+    font-weight: bold;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link.btn-download:hover{
+    color: #000;
+    background: #2fb45a;
+}
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    margin: -35px 0 0 -140px;
+}
+.content-title{
+
+}
+.content-org{
+    font-weight: 600;
+    color: gray;
+}
+.duration{
+    font-weight: 600;
+}
+.profile{
+   color: #000;
+}
