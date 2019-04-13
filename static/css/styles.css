@@ -24,10 +24,6 @@ img.display{
 }
 .section .section-heading h2{
 }
-#name{
-    text-align: center;
-    text-transform: uppercase;
-}
 #summary{
     font-style: italic;
     color: gray;
@@ -69,4 +65,16 @@ img.display{
 }
 .profile{
    color: #000;
+}
+#contact-form-submit{
+    font-weight: 600;
+    background: #343a40;
+    color: #fff;
+    opacity: 0.5;
+}
+#contact-form-submit:hover{
+    opacity: 1;
+}
+.error{
+    color: red;
 }
