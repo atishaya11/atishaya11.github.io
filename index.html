@@ -219,9 +219,15 @@
             var offset = 65;
 
             $('.navbar li a').click(function(event) {
+                event.preventDefault();
+                var href = $(this).attr('href');
+                window.location.hash = href;
+                var title = $(this).text();
                 $($(this).attr('href'))[0].scrollIntoView();
                 scrollBy(0, -offset);
                 $('.navbar-collapse').collapse('hide');
+                gtag('event', 'page_view', { 'send_to': 'UA-138082328-1', 'page_title' : title, 'page_path': '/' + href });
+
             });
             function validateForm() {
                 var name = $('#name').val();
