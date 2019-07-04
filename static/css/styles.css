@@ -78,3 +78,8 @@ img.display{
 .error{
     color: red;
 }
+.external-link{
+    color: #343a40;
+    font-size: 1em;
+    vertical-align: middle;
+}
